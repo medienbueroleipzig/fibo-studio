@@ -1,0 +1,7 @@
+# macOS Apple Silicon (MLX & Metal)
+-r requirements-common.txt
+mlx>=0.22.0; sys_platform == "darwin" and platform_machine == "arm64"
+mflux>=0.14.0; sys_platform == "darwin" and platform_machine == "arm64"
+mlx-vlm>=0.1.0; sys_platform == "darwin" and platform_machine == "arm64"
+safetensors>=0.4.0
+

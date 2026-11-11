@@ -1,0 +1,13 @@
+gradio>=5.0.0
+mlx>=0.22.0
+mflux>=0.24.0
+torch>=2.2.0
+torchvision
+transformers>=4.40.0
+timm
+einops
+pillow>=10.0.0
+piexif
+huggingface-hub>=0.23.0
+mlx-vlm
+numpy

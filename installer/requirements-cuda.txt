@@ -1,0 +1,11 @@
+# Linux & Windows NVIDIA CUDA Requirements
+-r requirements-common.txt
+diffusers>=0.35.0
+transformers>=4.48.0
+accelerate>=1.1.0
+safetensors>=0.4.0
+rotary-embedding-torch>=0.5.3
+einops>=0.7.0
+# PyTorch with CUDA 12.8 can be installed via:
+# pip install torch torchvision --index-url https://download.pytorch.org/whl/cu128
+

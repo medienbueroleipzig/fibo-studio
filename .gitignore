@@ -1,0 +1,42 @@
+# Byte-compiled / optimized files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Outputs & generated media
+outputs/
+temp/
+tmp/
+*.log
+
+# macOS & OS metadata
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+
+# IDEs & Editors
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Model weights & large binaries
+ckpts/
+models/
+*.safetensors
+*.ckpt
+*.pt
+*.bin
+
+# Gated tokens / credentials
+.hf_token
+token
